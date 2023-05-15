@@ -1,0 +1,57 @@
+/* For Mobile */
+@media only screen and (min-width: 300px){
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+  }
+  html{
+    color-scheme: light dark;
+    color: white;
+  }
+  .l-screen{
+    height: 100vh;
+  }
+  .landing-container{
+    margin:auto;
+    width: 50%;
+  }
+  .landing-text{
+    /*Find a way to add text outline*/
+  }
+  .landing{
+      text-align: center;
+      margin-top: 35%;
+      font-family: 'Tangerine', cursive;
+      font-size: xx-large;
+
+  }
+  .about{
+      font-family: 'Tangerine', cursive;
+      font-size: large;
+  }
+  .about-me{
+    text-align: center;
+    line-height: 2em;
+  }
+  .about-me-item{
+
+  }
+  .about-me > h2{
+
+  }
+  /*
+  .projects{
+      text-align: center;
+      font-family: 'Tangerine', cursive;
+      font-size: large;
+  }
+
+  .bottom{
+      padding-top: 275px;
+      text-align: center;
+      color:#CBE4DE;
+      font-family: 'Tangerine', cursive;
+      font-size: 25px;
+  }*/
+}
